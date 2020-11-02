@@ -1,0 +1,51 @@
+name: inqvine_starter
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State and Application
+  protobuf: ^1.0.1
+  flutter_riverpod: ^0.11.1
+  hooks_riverpod: ^0.11.1
+  get_it: ^5.0.1
+  event_bus: ^1.1.1
+  app_settings: ^4.0.4
+  semaphore: ^0.1.4
+  google_sign_in: ^4.5.5
+  firebase_auth: ^0.18.1+2
+  url_launcher: ^5.7.8
+  jiffy: ^3.0.1
+
+  # UI and Localization
+  easy_localization: ^2.3.3
+  easy_localization_loader: ^0.0.2
+  cached_network_image: ^2.3.3
+
+  # Debugging
+  logger: ^0.9.4
+  mockito: ^4.1.2
+
+  # Backend
+  firebase_crashlytics: ^0.2.1+1
+  cloud_firestore: ^0.14.1+3
+
+  # Native UI
+  flutter_launcher_icons: ^0.8.1
+  flutter_native_splash: ^0.1.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - resources/langs/
